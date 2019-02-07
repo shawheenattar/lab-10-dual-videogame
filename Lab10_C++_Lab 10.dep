@@ -1,0 +1,57 @@
+Dependencies for Project 'Lab10_C++', Target 'Lab 10': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x5AE22742)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\main.cpp)(0x5AE8E76F)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+I (PLL.h)(0x5AE22742)
+I (ST7735.h)(0x5AE22742)
+I (Random.h)(0x5AE22742)
+I (SlidePot.h)(0x5AE5EC04)
+I (Images.h)(0x5AE8C7DD)
+I (UART.h)(0x5AE22742)
+I (Timer0.h)(0x5AE22742)
+I (Timer1.h)(0x5AE22742)
+I (Sound.h)(0x5AE8C7DD)
+I (Timer2.h)(0x5AE22742)
+I (DAC.h)(0x5AE5EC04)
+I (FIFO.h)(0x5AE22742)
+F (.\DAC.cpp)(0x5AE22742)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+I (DAC.h)(0x5AE5EC04)
+F (.\PLL.cpp)(0x5AE22742)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (PLL.h)(0x5AE22742)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\random.cpp)(0x5AE22742)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\random.o --omf_browse .\random.crf --depend .\random.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+F (.\ST7735.cpp)(0x5AE22742)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (ST7735.h)(0x5AE22742)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\SlidePot.cpp)(0x5AE5EC04)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\slidepot.o --omf_browse .\slidepot.crf --depend .\slidepot.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (SlidePot.h)(0x5AE5EC04)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\Sound.cpp)(0x5AE8C7DD)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (Sound.h)(0x5AE8C7DD)
+I (DAC.h)(0x5AE5EC04)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\Timer0.cpp)(0x5AE22742)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (Timer0.h)(0x5AE22742)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\Timer1.cpp)(0x5AE22742)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\timer1.o --omf_browse .\timer1.crf --depend .\timer1.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (Timer1.h)(0x5AE22742)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+F (.\UART.cpp)(0x5AE22742)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (../inc/tm4c123gh6pm.h)(0x5388DEFA)
+I (FIFO.h)(0x5AE22742)
+I (UART.h)(0x5AE22742)
+F (.\FIFO.cpp)(0x5AE22742)(--cpp -c --cpu Cortex-M4 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\fifo.o --omf_browse .\fifo.crf --depend .\fifo.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C8A654)
+I (FIFO.h)(0x5AE22742)
+I (ST7735.h)(0x5AE22742)
